@@ -3,6 +3,7 @@
 
 # Example Usage
 ```lua
+-- be sure to require seed20 BEFORE making any calls to math.random() or math.randomseed()!!
 require("path.to.seed20") -- doesn't require assigning to a variable!
 
 random() -- equivalent to math.random()
